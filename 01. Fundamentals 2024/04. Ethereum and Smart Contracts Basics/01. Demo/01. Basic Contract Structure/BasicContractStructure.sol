@@ -4,7 +4,7 @@
  Compiler version ^0.8.28 does not satisfy the ^0.5.8 semver requirement Pos: 1:1 */
 pragma solidity ^0.8.28 .0;
 
-contract SimpleVoting {
+contract BasicContractStructure {
     /* if the variable is private it's convention to write it with underscore*/
     uint256 private _privateVariable;
     uint256 public votesCandidate1;
